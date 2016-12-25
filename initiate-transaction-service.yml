@@ -1,5 +1,5 @@
 transaction:
-  url: http://TRANSACTION-URL
+  url: http://INITIATE-TRANSACTION-SERVICE
 ---
 spring:
   profiles: default
