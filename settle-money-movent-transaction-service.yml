@@ -1,5 +1,4 @@
 transaction:
-  transaction:
   url: http://SETTLE-MONEY-MOVEMENT-TRANSACTION-SERVICE
 ---
 spring:
