@@ -1,0 +1,26 @@
+transaction:
+  url: http://TRANSACTION-URL
+---
+spring:
+  profiles: default
+
+server:
+  port: 8106
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    leaseRenewalIntervalInSeconds: 5
+
+---
+spring:
+  profiles: cloud
+
+eureka:
+  instance:
+    nonSecurePort: 80
+    hostname: ${vcap.application.uris[0]}
+  client:
+    service-url:
+      defaultZone: ${vcap.services.eureka.credentials.url}
