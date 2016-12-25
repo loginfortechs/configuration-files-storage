@@ -1,11 +1,12 @@
 transaction:
-  url: http://INITIATE-TRANSACTION-SERVICE
+  transaction:
+  url: http://SETTLE-MONEY-MOVEMENT-TRANSACTION-SERVICE
 ---
 spring:
   profiles: default
 
 server:
-  port: 8106
+  port: 8107
 eureka:
   client:
     serviceUrl:
