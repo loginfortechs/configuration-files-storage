@@ -1,5 +1,5 @@
 transaction:
-  url: http://MONEY-MOVEMENT-DOMAIN-SERVICE
+  url: http://MONEY-MOVEMENT-DOMAIN-SERVICES
 ---
 spring:
   profiles: default
