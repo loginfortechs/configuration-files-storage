@@ -11,7 +11,10 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/  
+      defaultZone: http://localhost:8761/eureka/
+db:
+  userName: ENC(YV+PocsgsO/YIRJwnna8DxEoVbS07/cF)
+  password: ENC(U6dIiSC6RT2JzUQ4sifhj63hcw1/rult)         
 ---
 spring:
   profiles: cloud
